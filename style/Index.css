@@ -1,0 +1,98 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: #313552;
+    height: 60px
+}
+
+header .title{
+    float: left;
+    margin: 5px auto;
+    padding:10px  ;
+    width: 30%;
+    color: blanchedalmond;
+    font-size: x-large;
+    letter-spacing: 0.1cm;
+    text-align: center;
+}
+.title span{
+    color: darkorange;
+}
+header .navList{
+float: right;
+margin: auto;
+width: 50%;
+list-style: none;
+color: blanchedalmond;
+
+}
+.navList li{
+    display: inline-block;
+    padding: 19px;
+
+}
+.navList li a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: larger;
+}
+main{
+    height: 200px;
+    /* background-color: #B8405E; */
+    padding:  60px  30px ;
+}
+.t1{
+    width: 500px;
+    height: 50px;
+    margin: 1px auto;
+    justify-content: center;
+    
+}
+.t1 th{
+    padding: 10px;
+    border: 1px solid #111;
+    background-color: lightgray;
+    opacity: 80%;
+    font-size: larger;
+}
+.t1 td{
+    padding: 10px;
+    border: 1px solid #111;
+}
+
+.stuate1,.stuate2{
+    background-color: green; 
+    width: 60px; height: 20px;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+.stuate3{
+    background-color: red; 
+    width: 60px; height: 20px;
+    border-radius: 5px;
+    margin: 5px auto;
+}
+.myInfo{
+    height: 110px;
+    background-color: #2EB086;
+
+}
+.myInfo p{
+    font-size: x-large;
+    margin: 10px auto;
+    padding: 5px;
+    letter-spacing: .3mm;
+    color: moccasin;
+}
+.COPY{
+    background-color: #999;
+    color: #111;
+    height: 50px;
+    text-align: center;
+    
+}
+.COPY p{
+    padding: 10px;
+    font-size: larger;
+}
