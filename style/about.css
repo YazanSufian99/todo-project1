@@ -1,0 +1,148 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    background-color: #313552;
+    height: 60px
+}
+
+header .title{
+    float: left;
+    margin: 5px auto;
+    padding:10px  ;
+    width: 30%;
+    color: blanchedalmond;
+    font-size: x-large;
+    letter-spacing: 0.1cm;
+    text-align: center;
+}
+.title span{
+    color: darkorange;
+}
+header .navList{
+float: right;
+margin: auto;
+width: 50%;
+list-style: none;
+color: blanchedalmond;
+
+}
+.navList li{
+    display: inline-block;
+    padding: 19px;
+
+}
+.navList li a{
+    text-decoration: none;
+    color: blanchedalmond;
+    font-size: larger;
+}
+.hero{
+    background-color: #C0D8C0;
+    /* position: relative; */
+    display:inline-flex;
+    width: 100%;
+    
+}
+.me{
+ 
+    width: 150px;
+    padding: 10px ;
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+}
+.info1{
+    width: 30%;
+
+}
+.info2  {
+    width: 30%;
+    /* background-color: #111; */
+    justify-content: center;
+    
+}
+.info2 .name{
+    color: rgb(68, 34, 216);
+    display: block;
+    text-align: center;
+}
+.info2 .dic{
+    padding: 5px ;
+    color: #111;
+    display: block;
+    text-align: center;
+    border: 1px solid ;
+
+}
+.userInfo{
+    background-color:#35858B ;
+}
+.userInfo h2{
+    text-align: center;
+    
+}
+.forminfo {
+    /* position: relative; */
+    /* position: relative; */
+    padding: 10px;
+    margin: 10px auto;
+    /* display: block; */
+    /* align-items: center; */
+    box-sizing: border-box;
+}
+.COPY{
+    background-color: #111;
+    color: blanchedalmond;
+    height: 50px;
+    text-align: center;
+    padding: 5px auto;
+    
+    letter-spacing: .2mm;
+    /* margin: 5px; */
+}
+.form-style-2{
+	max-width: 500px;
+	padding: 20px 12px 10px 20px;
+    display: grid
+}
+.form-style-2-heading{
+	font-weight: bold;
+	font-style: italic;
+	border-bottom: 2px solid #ddd;
+	margin-bottom: 20px;
+	font-size: 15px;
+	padding-bottom: 3px;
+}
+.form-style-2 label{
+	display: block;
+	margin: 0px 0px 15px 0px;
+}
+.form-style-2 label > span{
+	width: 100px;
+	font-weight: bold;
+	float: left;
+	padding-top: 8px;
+	padding-right: 5px;
+}
+.form-style-2 input.input-field, .form-style-2 .select-field{
+	width: 48%;	
+}
+-style-2 .textarea-field{
+	height:100px;
+	width: 55%;
+}
+.form-style-2 input[type=submit],
+.form-style-2 input[type=button]{
+	border: none;
+	padding: 8px;
+	background: #333;
+	color: #fff;
+	box-shadow: 1px 1px 4px #DADADA;
+	letter-spacing: 2px;
+}
+.form-style-2 input[type=submit]:hover,
+.form-style-2 input[type=button]:hover{
+	background: #EA7B00;
+	color: #fff;
+}
