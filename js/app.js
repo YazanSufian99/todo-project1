@@ -59,26 +59,28 @@ let qustion3 = prompt(" do you know about .NET ?").toLowerCase();
 aswaerValidate(qustion3);
 
 function aswaerValidate(qustionValidate){
+    let arr=[""]
+    
     if(qustionValidate == "yes"){
-        console.log("yes ");
-       printAnswers(qustionValidate);
-        //  printAnswers(q1);
+        // let q1= console.log("yes ");
+        arr.push("yes");
+   
     }
     else if (qustionValidate == "no"){
-        console.log("no");
-        printAnswers(qustionValidate);
-        // printAnswers(q2);
+        // let q2= console.log("no");
+        arr.push("no")
+        
     }
     else if (qustionValidate == ""){
-        console.log("Invalid");
-         printAnswers(qustionValidate);
-        // printAnswers(q3);
+        // let q3 = console.log("Invalid");
+        arr.push("Invalid")
+       
     }
     else if(qustionValidate !=="no" && qustionValidate !=="yes"){
-         console.log("not correct answer");
-        printAnswers(qustionValidate);
-        // printAnswers(q4);
+        //  let q4 = console.log("not correct answer");
+         arr.push("not correct answer");
     }
+    console.log(arr)
 }
 // function printAnswers(userAnswers){
     
