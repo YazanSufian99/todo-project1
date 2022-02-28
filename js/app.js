@@ -82,11 +82,10 @@ function aswaerValidate(qustionValidate){
     }
     console.log(arr)
 }
-// function printAnswers(userAnswers){
-    
-    
+function printAnswers(userAnswers){
+   
 
-// }
+}
 // for(i=0;i<qustionValidate;i++){
     //     allAns [""] =allAns.push(userAnswers);
     // }

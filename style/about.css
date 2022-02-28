@@ -54,18 +54,19 @@ color: blanchedalmond;
 }
 .info1{
     width: 30%;
-
+    margin-left: 100px;
 }
 .info2  {
     width: 30%;
     /* background-color: #111; */
     justify-content: center;
+    margin-left: 100px;
     
 }
 .info2 .name{
     color: rgb(68, 34, 216);
     display: block;
-    text-align: center;
+    
 }
 .info2 .dic{
     padding: 5px ;
@@ -73,7 +74,7 @@ color: blanchedalmond;
     display: block;
     text-align: center;
     border: 1px solid ;
-
+    width: 300px;
 }
 .userInfo{
     background-color:#35858B ;
@@ -102,9 +103,13 @@ color: blanchedalmond;
     /* margin: 5px; */
 }
 .form-style-2{
-	max-width: 500px;
+	display: inline-flex;
+    max-width: 500px;
 	padding: 20px 12px 10px 20px;
-    display: grid
+    align-items: center;
+    margin: 20px auto;
+    margin-left: 200px;
+    
 }
 .form-style-2-heading{
 	font-weight: bold;
